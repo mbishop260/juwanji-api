@@ -1,4 +1,4 @@
-require('dotenv').config({ path: '/home/tonewebdesign/envs/juwanji/.env' });
+require('dotenv').config();
 
 module.exports = {
   HOST: process.env.DB_HOST,
